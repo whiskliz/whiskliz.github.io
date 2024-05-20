@@ -276,6 +276,7 @@ p, span{
     background-size: cover;
 }
 .payments{
+    padding: 25px 30px;
     text-align: center;
 }
 .payments-wrapper h2{
