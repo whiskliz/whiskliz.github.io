@@ -378,7 +378,7 @@ p, span{
 @media(max-width: 768px){
     .menu-item {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
     }
     .menu-item img {
         height: 100%;
