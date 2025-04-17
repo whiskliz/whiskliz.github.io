@@ -375,7 +375,7 @@ p, span{
 .menu-item .description i{
     color: #C93F26;
 }
-@media(max-width: 768px){
+/* @media(max-width: 768px){
     .menu-item {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -386,7 +386,7 @@ p, span{
         object-fit: cover;
         border-radius: 20px 0px 0px 20px;
     }
-}
+} */
 @media(min-width: 768px){
     .menu-wrapper{
         display: grid;
