@@ -112,11 +112,29 @@ p, span{
 .pt-10{
     padding-top: 10px;
 }
+.pb-10{
+    padding-bottom: 10px;
+}
 .d-block{
-    display: block;
+    display: block!important;
+}
+.txt-yellow{
+    color: #F2B544;
+}
+.txt-white{
+    color: white!important;
+}
+.txt-small{
+    font-size: 15px;
 }
 .text-center{
     text-align: center;
+}
+.txt-decoration-none{
+    text-decoration: none;
+}
+.txt-copy{
+    font-family: 'Inter';
 }
 .border-white-10{
     border: solid 10px #fff;
@@ -131,15 +149,23 @@ p, span{
     grid-template-columns: 1fr;
     gap: 20px;
 }
-.logo-container h1{
+.logo-header h1{
     font-family: 'Campana';
     font-size: 35px;
+    letter-spacing: .08em;
+    line-height: .7em;
 }
 .logo-container{
     /* display: flex; */
     align-items: center;
-    padding: 15px 10px;
+    padding: 20px;
     /* justify-content: center; */
+}
+.logo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
 .taglines p{
     padding-left: 10px;
@@ -165,6 +191,9 @@ p, span{
 .menu-container h2{
     text-align: center;
     padding-bottom: 30px;
+}
+.menu-container h2 span{
+    font-size: 18px;
 }
 .menu-preview-item{
     display: flex;
@@ -380,6 +409,17 @@ p, span{
     color: #C93F26;
     padding: 0px 20px 20px 20px;
 }
+.menu-item span.price-2{
+    display: block;
+    font-family: 'Calistoga';
+    font-size: 18px;
+    color: #C93F26;
+    padding: 0px 20px 10px 20px;
+}
+.menu-item span.price-2 i, .menu-item span.price i {
+    font-style: normal;
+    font-size: 14px;
+}
 .menu-item .description{
     display: grid;
     gap: 10px;
@@ -391,14 +431,19 @@ p, span{
     color: #C93F26;
 }
 .contacts-n-social{
-    display: grid;
+    display: grid    ;
     justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
 }
 .icon-item a {
     display: flex;
     align-items: center;
     gap: 8px;
     text-decoration: none;
+}
+.d-none{
+    display: none;
 }
 /* @media(max-width: 768px){
     .menu-item {
@@ -467,11 +512,10 @@ p, span{
     } */
     .logo-container{
         padding: 19px 20px;
-        max-height: 151px;
     }
-    .logo-wrapper img{
+    /* .logo-wrapper img{
         width: 161.43px;
-    }
+    } */
     .logo-container h1{
         font-size: 50px;
     }
@@ -556,7 +600,10 @@ p, span{
 }
 .menu-model-wrap{
     background-color: #F2B544;
-    padding: 25px 20px;
+    padding: 0 20px 25px 20px;
+}
+.pop-up-content-wrap{
+    padding-top: 20px;
 }
 .menu-model-wrap h2{
     padding: 0px 30px 0px 0px;
