@@ -103,6 +103,21 @@ p, span{
 .mt-15{
     margin-top: 15px!important;
 }
+.pt-50{
+    padding-top: 50px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.d-block{
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
 .border-white-10{
     border: solid 10px #fff;
     box-shadow: 0px 4px 10px rgb(0, 0, 0, .25);
@@ -121,10 +136,10 @@ p, span{
     font-size: 35px;
 }
 .logo-container{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     padding: 15px 10px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .taglines p{
     padding-left: 10px;
@@ -374,6 +389,16 @@ p, span{
 }
 .menu-item .description i{
     color: #C93F26;
+}
+.contacts-n-social{
+    display: grid;
+    justify-content: center;
+}
+.icon-item a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
 }
 /* @media(max-width: 768px){
     .menu-item {
